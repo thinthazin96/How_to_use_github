@@ -1,0 +1,13 @@
+1. Check the status of your local repo
+ git status
+
+2. Add the file you created into your local repo(you will see in red if the file is not added.)
+    git add . 
+
+3. Then check the status again and it will show in green now.
+
+4. Commit your file to local repo.
+    git commit -m "Write comment message for your file"
+
+5. Push your file to remote repo which is in github
+    git push -u origin master 
