@@ -5,18 +5,21 @@
 
 3. Create file in your local repo
 
-4. Check the status of your local repo
+4. Initialzie the git repo
+    git init
+
+5. Check the status of your local repo
  git status
 
-5. Add the file you created into your local repo(you will see in red if the file is not added.)
+6. Add the file you created into your local repo(you will see in red if the file is not added.)
  git add . 
 
-6. Then check the status again and it will show in green now.
+7. Then check the status again and it will show in green now.
 
-7. Commit your file to local repo.
+8. Commit your file to local repo.
     git commit -m "Write comment message for your file"
 
-8. Push your file to remote repo which is in github
+9. Push your file to remote repo which is in github
     git push -u origin master 
 
 #master is the name of your main branch unless you change it into main using git branch -M main.
