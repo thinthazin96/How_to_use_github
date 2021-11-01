@@ -1,0 +1,28 @@
+1.Create repo first in github
+
+2.Clone repo to your destop and that is your local repo
+ git clone repo_link
+
+3. Create file in your local repo
+
+4. Check the status of your local repo
+ git status
+
+5. Add the file you created into your local repo(you will see in red if the file is not added.)
+ git add . 
+
+6. Then check the status again and it will show in green now.
+
+7. Commit your file to local repo.
+    git commit -m "Write comment message for your file"
+
+8. Push your file to remote repo which is in github
+    git push -u origin master 
+
+#master is the name of your main branch unless you change it into main using git branch -M main.
+
+
+----------Done for first step!-------------
+
+
+
