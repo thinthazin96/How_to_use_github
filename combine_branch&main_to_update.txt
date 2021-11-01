@@ -1,0 +1,13 @@
+1. Switch to master branch
+    git checkout master
+
+2. Pull all the data from master branch
+    git pull origin master
+
+3. Merge (Combine) your second branch you created in last step
+    git merge branch_name
+
+4. Push your master branch for up to date with second branch
+    git push origin master
+
+----Done for step 3!-------
